@@ -1,0 +1,35 @@
+body {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.ui {
+  font-family: "Cairo", sans-serif !important;
+  direction: rtl;
+}
+
+.ui.input > input {
+  text-align: right !important;
+  font-family: "Cairo", sans-serif !important;
+}
+.ui.input > select {
+  text-align: right !important;
+  font-family: "Cairo", sans-serif !important;
+}
+
+.ui.selection.dropdown > .search.icon,
+.ui.selection.dropdown > .delete.icon,
+.ui.selection.dropdown > .dropdown.icon {
+  text-align: end !important;
+}
+
+.ui.dropdown {
+  text-align: right !important;
+}
+
+.header {
+  font-family: "Cairo", sans-serif !important;
+}
+
+img[alt="image"] {
+  max-width: 100%;
+}

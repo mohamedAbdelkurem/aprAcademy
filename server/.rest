@@ -1,0 +1,11 @@
+POST ${process.env.REACT_APP_SERVER_URL}/auth/login
+User-Agent: rest-book
+Content-Type: application/json 
+
+{
+    "email": "ouail@g.com",
+    "username": "ouail",
+    "password": "123456",
+    "lastname": "ouail",
+    "firstname": "salem"
+}
